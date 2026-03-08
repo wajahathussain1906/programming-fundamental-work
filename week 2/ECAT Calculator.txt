@@ -1,0 +1,26 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+    string name;
+    int rollNumber;
+    float aggregate;
+    char section;
+
+    cout << "Enter your name: ";
+    getline(cin, name);
+    cout << "Enter your roll number: ";
+    cin >> rollNumber;
+    cout << "Enter your aggregate: ";
+    cin >> aggregate;
+    cout << "Enter your section: ";
+    cin >> section;
+
+    cout << "Name: " << name << endl;
+    cout << "Roll Number: " << rollNumber << endl;
+    cout << "Aggregate: " << aggregate << endl;
+    cout << "Section: " << section << endl;
+
+    return 0;
+}S

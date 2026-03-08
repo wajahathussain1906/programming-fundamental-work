@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    float mb;
+    long long bits;
+    cout << "Enter size in Megabytes (MB): ";
+    cin >> mb;
+    bits = mb * 1024 * 1024 * 8;
+    cout << mb << " MB is equal to " << bits << " bits." << endl;
+    return 0;
+}

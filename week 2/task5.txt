@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    float charge, time, current;
+    cout << "Enter charge (Q) in Coulombs: ";
+    cin >> charge;
+    cout << "Enter time (t) in seconds: ";
+    cin >> time;
+    current = charge / time;
+    cout << "The current (I) is: " << current << " Amperes" << endl;
+    return 0;
+}

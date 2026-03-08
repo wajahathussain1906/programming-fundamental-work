@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int wins, draws, losses, totalPoints;
+    cout << "Enter number of wins: ";
+    cin >> wins;
+    cout << "Enter number of draws: ";
+    cin >> draws;
+    cout << "Enter number of losses: ";
+    cin >> losses;
+    
+    totalPoints = (wins * 3) + (draws * 1) + (losses * 0);
+    cout << "Total points obtained: " << totalPoints << endl;
+    return 0;
+}
