@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    float voltage, current, power;
+    cout << "Enter voltage (volts): ";
+    cin >> voltage;
+    cout << "Enter current (amperes): ";
+    cin >> current;
+    power = voltage * current;
+    cout << "The power is: " << power << " Watts" << endl;
+    return 0;
+}

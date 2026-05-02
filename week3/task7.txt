@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int hours;
+    long seconds;
+    cout << "Enter number of hours: ";
+    cin >> hours;
+    seconds = hours * 3600;
+    cout << hours << " hours is equal to " << seconds << " seconds." << endl;
+    return 0;
+}
